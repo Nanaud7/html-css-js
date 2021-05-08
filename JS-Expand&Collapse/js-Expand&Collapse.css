@@ -1,0 +1,99 @@
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+
+    font-family: 'calibri';
+
+    /*border : 3px solid palevioletred;*/
+}
+
+/* HEADER */
+
+header{
+    width: auto;
+    height: 50px;
+    background: #5667a3;
+
+    display: flex;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+header p{
+    width: auto;
+    height: auto;
+
+    align-self: center;
+
+    margin: 0;
+    padding-left: 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+/* MAIN */
+
+main{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+/* Expand & Collapse */
+
+.container {
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+  
+button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+  
+button.accordion:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+}
+  
+button.accordion.is-open:after {
+    content: '\f056';
+}
+  
+button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+}
+  
+.accordion-content {
+    background-color: white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}

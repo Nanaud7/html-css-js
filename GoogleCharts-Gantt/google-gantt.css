@@ -1,0 +1,53 @@
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+
+    font-family: 'calibri';
+}
+
+/* HEADER */
+
+header{
+    width: auto;
+    height: 50px;
+    background: #5667a3;
+
+    display: flex;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+header p{
+    width: auto;
+    height: auto;
+
+    align-self: center;
+
+    margin: 0;
+    padding-left: 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    overflow: scroll;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+.chart_div{
+    width: auto;
+}

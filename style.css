@@ -1,0 +1,71 @@
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+
+    font-family: 'calibri';
+}
+
+/* HEADER */
+
+header{
+    width: auto;
+    height: 50px;
+    background: #5667a3;
+
+    display: flex;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+header p{
+    width: auto;
+    height: auto;
+
+    align-self: center;
+
+    margin: 0;
+    padding-left: 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+/* MAIN */
+
+main{
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+section{
+    height: auto;
+    margin-top: 20px;
+    background: #92a2db;
+
+    /* Devt */
+    /*border : 3px solid brown;*/
+}
+
+section a{
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
+
+    /* Devt */
+    /*border : 3px solid aquamarine;*/
+}
+
+.section-title{
+    height: auto;
+    padding-left: 10px;
+    background: #5667a3;
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+}

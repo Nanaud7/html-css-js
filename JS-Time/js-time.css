@@ -1,0 +1,56 @@
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+
+    font-family: 'calibri';
+}
+
+/* HEADER */
+
+header{
+    width: auto;
+    height: 50px;
+    background: #5667a3;
+
+    display: flex;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+header p{
+    width: auto;
+    height: auto;
+
+    align-self: center;
+
+    margin: 0;
+    padding-left: 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}
+
+main span{
+    margin :auto;
+    font-size: 1.3em;
+    font-weight: bold;
+
+    /* Devt */
+    /*border : 3px solid palevioletred;*/
+}

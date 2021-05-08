@@ -1,0 +1,108 @@
+body
+{
+	background-color: white;
+	font-family: calibri;
+
+	max-width: 960px;
+	margin-top: 0px;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.conteneur
+{
+	/*width: 100px;*/
+	height: 100px;
+
+    display: flex;
+    flex-direction: row; 
+
+    color: black;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+.element
+{
+	display: flex;
+	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex: 1;
+
+	font-weight: bold;
+}
+
+.element span{
+	/*
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	*/
+}
+
+.element:nth-child(1)
+{
+	background-color: #6ebfd6;
+	width: 	100%;
+	height: 100%;
+
+   	/* Contour */
+   	/*
+   	border:solid;
+   	border-color: red;
+   	*/
+}
+
+.element:nth-child(2)
+{
+	background-color: #6ed693;
+	width: 	100%;
+	height: 100%;
+
+   	/* Contour */
+   	/*
+   	border:solid;
+   	border-color: purple;
+   	*/
+}
+
+.element:nth-child(3)
+{
+	background-color: #de8d1e;
+	width: 	100%;
+	height: 100%;
+
+   	/* Contour */
+   	/*
+   	border:solid;
+   	border-color: blue;
+   	*/
+}
+
+.separation
+{
+	height: 20px;
+	background-color: white;
+}
+
+.conteneur-gauche
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.conteneur-droite
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.conteneur-row
+{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+}
